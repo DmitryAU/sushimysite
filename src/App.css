@@ -1,38 +1,83 @@
-.App {
+body {
+  background-color: #434242;
+}
+
+.containerImage {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.main {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.near {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 30px;
+  margin: 30px 5px ;
+  
+}
+
+.imageNear {
+  /*filter: blur(1px);*/
+  /*filter: grayscale(50%);*/
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #742b19;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+h1 {
+  padding: 0;
+  margin: 10px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0px;
+}
+
+.bascet {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #fff;
+  margin: 15px;
+}
+
+.bascetText {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  margin: 25px;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.containerIm {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 20px;
+  padding: 0px 55px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
